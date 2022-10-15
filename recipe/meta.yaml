@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/SpatioTemporal/STARE/archive/{{ version }}.tar.gz
-  sha256: c64a1b9f4572c9c54f11f1171579c8f4c0f534c64cd49cb834e972da378a40af
+  sha256: 0ab1bb67ed322033fd4a43642a096058f6cacec231173d79553c8deb7391c4f8
 build:
   number: 0
   skip: true  # [win]
