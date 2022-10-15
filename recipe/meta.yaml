@@ -1,6 +1,6 @@
 
 {% set name = "stare" %}
-{% set version = "1.2.5" %}
+{% set version = "1.2.6" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/SpatioTemporal/STARE/archive/{{ version }}.tar.gz
-  sha256: 502f9ca18b1185258863d06f6deacc7ac0354b7913dc1626f3a48a78c3b5b42d
+  sha256: c64a1b9f4572c9c54f11f1171579c8f4c0f534c64cd49cb834e972da378a40af
 build:
   number: 0
   skip: true  # [win]
