@@ -10,7 +10,7 @@ source:
   url: https://github.com/SpatioTemporal/STARE/archive/{{ version }}.tar.gz
   sha256: aa190b59fa036928bec7e7a809902f61075c02a16da9f21530bb5de7aee0a8e7
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   skip: true  # [osx]
 
